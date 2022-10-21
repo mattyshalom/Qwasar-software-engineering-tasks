@@ -1,0 +1,13 @@
+//changing the css position of an element using javascript
+<html>
+    <div id="my_box" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+      var elementStyle = document.getElementById("my_box").style;
+
+elementStyle.position = "absolute";
+
+elementStyle.bottom = elementStyle.right = "0";
+     // YOUR CODE
+    </script>
+</html>
+
